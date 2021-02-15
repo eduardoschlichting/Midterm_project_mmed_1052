@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Contact</title>
+
+<!--link href="css/reset.css" rel="stylesheet" type="text/css" media="screen"-->
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+<h1 class="hidden">Eduardo Schlichting - Contact</h1>
+
+<div id="siteContainer">
+
+	<header>
+	
+	<div id="logo_header">
+		<img src="images/dui_logo.svg" alt="DUI logo" width="120">
+	</div>	
+		
+		<nav>
+			<h2 class="hidden">Navigation</h2>
+			
+			<ul>
+				<li><a href="index.html" target="_blank">home</a></li> 
+				<li><a href="portfolio.html" target="_blank">portfolio</a></li>
+				<li><a href="services.html" target="_blank">services</a></li>
+				<li><a href="about_me.html" target="_blank">who am I</a></li>
+				<li><a href="contact.html" target="_blank">contact</a></li>
+			</ul>
+		
+		</nav>
+	</header>
+	
+	<main role="main">
+
+		<section>
+			
+			<header>
+				<h2 class="hidden">Contact me</h2>
+				<h3>Did you like what you see? Lets Work together!</h3>
+			</header>
+
+			<section id="about_me">
+				
+				<h4>Tell me a bit about you, your company and what you need :D</h4>
+					<form>
+						<label for="userName">Name:</label>
+				<input type="text" name="name" id="userName" placeholder="your name">
+					</form>
+
+					<form action="form.php" method="post" name="userMail">
+
+						<label for="userMail">E-mail:</label>
+						<input type="text" name="mail" id="userMail" placeholder="your e-mail">
+					</form>
+			</section>
+
+			<section>
+				
+				<h4>Which type of services do you need?</h4>
+					<form action="form.php" method="post" name="service" id="Services">
+					
+						<input type="checkbox" name="services" id="Brand">
+						<label for="Brand">Brand Design</label>
+
+						<input type="checkbox" name="services" id="UiUx">
+						<label for="UiUx">UI/UX Design</label>
+
+						<input type="checkbox" name="services" id="Webdev">
+						<label for="Webdev">Web Development</label>
+
+					</form>
+			</section>
+
+			<section>
+
+				<h4>Tell me about you and your needs!</h4>
+				<label for="Message">Message:</label>
+				<textarea rows="3" cols="20" name="message" id="Message">
+				</textarea>
+
+			</section>
+
+			<button type="Submit">Submit</button>
+
+		</section>
+		&nbsp;
+	</main>
+
+	<footer id="footer"> 
+		<h2 class="hidden">Footer Navigation</h2>
+			<div class="logo_footer">
+				<a href="index.html" target="_blank"><img src="images/dui_logo.svg" alt="DUI logo" width="100"></a>
+			</div>
+
+		&nbsp;
+
+			<div class="socialMedia">
+				<a href="https://www.behance.net/eduardoschlichting" target="_blank"><img src="images/behance_logo.svg" alt="Behance logo" width="50"></a>&nbsp;
+				<a href="https://www.linkedin.com/in/eduardoschlichting" target="_blank"><img src="images/linkedin_logo.svg" alt="Linkedin logo" width="35"></a>&nbsp;
+				<a href="https://www.facebook.com/edu.schlichting" target="_blank"><img src="images/facebook_logo.svg" alt="facebook logo" width="35"></a>
+				<a href="https://www.twitter.com/eduschlichting" target="_blank"><img src="images/twitter_logo.svg" alt="twitter logo" width="35"></a>&nbsp;
+				<a href="https://www.instagram.com/eduschlichting" target="_blank"><img src="images/instagram_logo.svg" alt="Instagram logo" width="35"></a>
+
+			</div>
+				
+			<div class="copy">
+				<p><i>Midterm Project, Class MMED-1052-01-21W by Dayna Pusposky</i></p>
+				<p>Copyright &copy; 2021 Eduardo Schlichting</p>
+			</div>
+	</footer>
+
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
